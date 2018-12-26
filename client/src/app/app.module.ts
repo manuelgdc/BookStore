@@ -38,7 +38,7 @@ import { DataApiService } from './services/data-api.service';
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [ DataApiService, AuthService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
