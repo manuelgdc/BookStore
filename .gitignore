@@ -17,3 +17,16 @@
 coverage
 node_modules
 npm-debug.log
+
+# compiled output
+/dist
+/bin
+/obj
+/docs
+/tmp
+/out-tsc
+
+# dependencies
+/node_modules
+
+datasources.json
