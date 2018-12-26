@@ -12,6 +12,7 @@ import { LoginComponent } from './components/user/login/login.component';
 import { RegisterComponent } from './components/user/register/register.component';
 import { ProfileComponent } from './components/user/profile/profile.component';
 import { Page404Component } from './components/page404/page404.component';
+import { OffersComponent } from './components/offers/offers.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { Page404Component } from './components/page404/page404.component';
     LoginComponent,
     RegisterComponent,
     ProfileComponent,
-    Page404Component
+    Page404Component,
+    OffersComponent
   ],
   imports: [
     BrowserModule,
