@@ -14,6 +14,11 @@ import { ProfileComponent } from './components/user/profile/profile.component';
 import { Page404Component } from './components/page404/page404.component';
 import { OffersComponent } from './components/offers/offers.component';
 
+import { HttpClientModule} from '@angular/common/http'
+//services
+import { AuthService } from './services/auth.service';
+import { DataApiService } from './services/data-api.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,9 +35,10 @@ import { OffersComponent } from './components/offers/offers.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [ DataApiService, AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
