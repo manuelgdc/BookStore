@@ -17,6 +17,7 @@
 coverage
 node_modules
 npm-debug.log
+datasources.json
 
 # compiled output
 /dist
@@ -29,4 +30,3 @@ npm-debug.log
 # dependencies
 /node_modules
 
-datasources.json
