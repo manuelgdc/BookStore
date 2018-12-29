@@ -9,7 +9,7 @@
               <p>
                 <img class="img-fluid" src="{{book.portada}}" alt="{{book.titulo}}">
               </p>
-              <h4 class="card-title">{{book.titulo}}</h4>
+              <h4 routerLink="/book/{{book.id}}" class="card-title">{{book.titulo}}</h4>
               <p class="card-text">
                 {{book.descripcion}}
               </p>
